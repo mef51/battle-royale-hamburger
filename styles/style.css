@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div#wrapper {
+    width : 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+div#topbun {
+    background-color: blue;
+    height: 25%;
+}
+
+div#meat {
+    background-color: red;
+    height: 50%;
+}
+
+div#bottombun {
+    background-color: green;
+    height: 25%;
+}
