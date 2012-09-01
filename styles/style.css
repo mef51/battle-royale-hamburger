@@ -7,22 +7,22 @@ body {
 
 div#wrapper {
     width : 1000px;
-    height: 1000px;
+    height: 1198px;
     margin: 0 auto;
     box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.6);
 }
 
 div#topbun {
-    background-color: blue;
-    height: 25%;
+    background: url("../imgs/logo/top.png");
+    height: 685px;
 }
 
 div#meat {
     background-color: red;
-    height: 50%;
+    height: 0%;
 }
 
 div#bottombun {
-    background-color: green;
-    height: 25%;
+    background: url("../imgs/logo/bottom.png");
+    height: 513px;
 }
