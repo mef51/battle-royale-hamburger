@@ -7,9 +7,9 @@ body {
 
 div#wrapper {
     width : 1000px;
-    height: 1198px;
+    /*height: 1198px;*/
     margin: 0 auto;
-    box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.6);
+    /*box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.6);*/
 }
 
 div#topbun {
@@ -18,8 +18,8 @@ div#topbun {
 }
 
 div#meat {
-    background-color: red;
-    height: 0%;
+    background-color: grey;
+    height: 30px;
 }
 
 div#bottombun {
