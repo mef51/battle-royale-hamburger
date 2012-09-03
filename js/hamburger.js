@@ -6,7 +6,7 @@ $(document).ready(function(){
     // it opens.
     var isOpen = false;
 
-    var finalHeight = 500;
+    var finalHeight = 545;
     var initialHeight = 30;
     var openDuration = 300; //ms
     makeOpenClose("meat", finalHeight, initialHeight, openDuration);
