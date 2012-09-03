@@ -28,12 +28,12 @@ $(document).ready(function(){
                     height: openHeight + "px"
                 }, duration);
 
-                $("#meat").children().show(400);
+                $("#meat").children().show(duration);
             }
             else {
                 isOpen = false;
 
-                $("#meat").children().hide(400);
+                $("#meat").children().hide(duration);
 
                 $("#" + id).animate({
                     height: closeHeight + "px"
