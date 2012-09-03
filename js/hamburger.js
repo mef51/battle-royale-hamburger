@@ -6,12 +6,10 @@ $(document).ready(function(){
     // it opens.
     var isOpen = false;
 
-    var finalHeight = 745;
+    var finalHeight = 900;
     var initialHeight = 30;
     var openDuration = 300; //ms
     makeOpenClose("meat", finalHeight, initialHeight, openDuration);
-
-
 
     // ==================== Helpers ==================== //
 
@@ -28,12 +26,12 @@ $(document).ready(function(){
                     height: openHeight + "px"
                 }, duration);
 
-                $("#meat").children().show(duration);
+                $("#" + id).children().show(duration);
             }
             else {
                 isOpen = false;
 
-                $("#meat").children().hide(duration);
+                $("#" + id).children().hide(duration);
 
                 $("#" + id).animate({
                     height: closeHeight + "px"
