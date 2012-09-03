@@ -29,17 +29,21 @@ div#meat {
     margin: 10px 0px;
 }
 
+#meat:hover {
+    background-color: #222222;
+}
+
 div#eventdetails {
     width: 100%;
     height: 200px;
 }
 
-div#eventbrite {
+div#registration {
     width: 100%;
     height: 100px;
 }
 
-div#links {
+div#games {
     width: 100%;
     height: 200px;
 }
