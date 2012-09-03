@@ -12,15 +12,16 @@ $(document).ready(function(){
         var isOpen = false;
         $("#" + id).click(function(e){
             if(!isOpen) {
-                $("#meat").animate({
+                $("#" +id).animate({
                     height: openHeight + "px"
-                }, duration, "swing");
+                }, duration);
+
                 isOpen = true;
             }
             else {
-                $("#meat").animate({
+                $("#" + id).animate({
                     height: closeHeight + "px"
-                }, duration, "swing");
+                }, duration);
                 isOpen = false;
             }
         });
