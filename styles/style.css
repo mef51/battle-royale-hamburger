@@ -69,3 +69,16 @@ div#bottombun {
 .alternate {
     background-color: #C9172A;
 }
+
+/* Games section */
+div#featured_games {
+    width: 100%;
+    height: 200px;
+}
+
+div#more_games {
+    width: 100%;
+    height: 200px;
+}
+
+/* end Games section */
