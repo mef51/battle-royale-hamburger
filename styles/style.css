@@ -55,15 +55,25 @@ div#registration {
 
 div#games {
     width: 100%;
-    height: 400px;
+    height: 1000px;
 }
 
-div#icon {
-    width: 25%;
+div#fg_icon {
     /*background-color: white;*/
     /*border: 2px solid black;*/
     /*margin: 15px;*/
     float: left;
+    width: 50%;
+}
+
+div#mg_icon {
+    float: left;
+    width: 25%;
+}
+
+h2#gamesheading{
+    width:100%;
+    clear:both;
 }
 
 .blurb {
@@ -84,12 +94,14 @@ div#icon {
 }
 
 /* Games section */
-.featured_games {
-    width: 25%;
+div#featured_games {
+    width: 100%;
+    float: left;
 }
 
-.more_games {
-    width: 10%;
+div#more_games {
+    width: 100%;
+    float: left;
 }
 
 /* end Games section */
