@@ -7,7 +7,7 @@ body {
 }
 
 div#wrapper {
-    width : 1000px;
+    width : 800px;
     margin: 0 auto;
     padding: 0 50px;
     border: 1px solid black;
@@ -18,8 +18,19 @@ div#wrapper {
 }
 
 div#topbun {
-    background: url("../imgs/logo/top.png");
-    height: 685px;
+    height: 393px;
+    background: url("../imgs/logo/shavedtop.png");
+    background-size: 100% 100%;
+}
+
+div#bottombun {
+    height: 418px;
+    background: url("../imgs/logo/bottom.png");
+    background-size: 100% 100%;
+}
+
+.logo {
+    margin: 0 auto;
 }
 
 div#meat {
@@ -47,9 +58,12 @@ div#games {
     height: 400px;
 }
 
-div#bottombun {
-    background: url("../imgs/logo/bottom.png");
-    height: 522px;
+div#icon {
+    width: 25%;
+    /*background-color: white;*/
+    /*border: 2px solid black;*/
+    /*margin: 15px;*/
+    float: left;
 }
 
 .blurb {
