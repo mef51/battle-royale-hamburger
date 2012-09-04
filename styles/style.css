@@ -50,7 +50,12 @@ div#eventdetails {
 
 div#registration {
     width: 100%;
-    height: 100px;
+    height: 321px;
+}
+
+#eventbrite {
+    width: 100%;
+    height: 300px;
 }
 
 div#games {
@@ -74,6 +79,20 @@ div#mg_icon {
 h2#gamesheading{
     width:100%;
     clear:both;
+}
+
+h1#headerlink {
+    text-align: center;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+h1#headerlink a {
+    color: white;
+}
+
+h1#headerlink a:hover{
+    color: black;
 }
 
 .blurb {
