@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("../imgs/pixelbg.png");
+    /*background: url("../imgs/pixelbg.png");*/
+    background-color: #222222;
 
 }
 
@@ -9,6 +10,7 @@ div#wrapper {
     width : 1000px;
     margin: 0 auto;
     padding: 0 50px;
+    border: 1px solid black;
     box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.6);
     background: url("../imgs/tiny_grid.png");
     font-family: 'Quantico', sans-serif;
@@ -28,13 +30,11 @@ div#meat {
     margin: 10px 0px;
 }
 
-#meat:hover {
-    background-color: #222222;
-}
-
 div#eventdetails {
     width: 100%;
     height: 355px;
+    background: url("../imgs/header2.jpg");
+    background-size: 100% 100%;
 }
 
 div#registration {

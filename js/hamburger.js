@@ -8,8 +8,11 @@ $(document).ready(function(){
 
     var finalHeight = 900;
     var initialHeight = 30;
-    var openDuration = 300; //ms
-    makeOpenClose("meat", finalHeight, initialHeight, openDuration);
+    var openDuration = 600; //ms
+    setTimeout(function(){
+        openDiv("meat", finalHeight, openDuration);
+    }, 200);
+    // makeOpenClose("meat", finalHeight, initialHeight, openDuration);
 
     // ==================== Helpers ==================== //
 
@@ -17,6 +20,16 @@ $(document).ready(function(){
         $("#meat").children().hide();
     }
 
+    function openDiv(id, finalHeight, duration){
+        $("#" + id).animate({
+            height: finalHeight + "px"
+        }, duration);
+        $("#" + id).children().show(duration);
+    }
+
+    /**
+    * Not used, still handy tho
+    */
     function makeOpenClose(id, openHeight, closeHeight, duration) {
         $("#" + id).click(function(e){
             if(!isOpen) {
