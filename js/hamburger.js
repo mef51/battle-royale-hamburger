@@ -6,7 +6,7 @@ $(document).ready(function(){
     // it opens.
     var isOpen = false;
 
-    var finalHeight = 1745;
+    var finalHeight = 1810;
     var initialHeight = 30;
     var openDuration = 600; //ms
     setTimeout(function(){
