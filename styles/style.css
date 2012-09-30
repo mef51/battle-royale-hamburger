@@ -233,3 +233,13 @@ div#more_games {
 	margin: 10px;
 }
 /*  End Sponsors  */
+
+/*  Charity  */
+#charityContent {
+    width: 95%;
+    float: left;
+	height: 950px;
+	padding: 20px;
+}
+
+/*  End Charity  */
