@@ -7,7 +7,7 @@ $(document).ready(function(){
     var isOpen = false;
 
     var finalHeight = $("#wrapper").attr("openHeight"); // YEAH EPIC
-    var initialHeight = 30;
+    // var initialHeight = 30; // not used see div#meat{height} in style.css
     var openDuration = 600; //ms
     setTimeout(function(){
         openDiv("meat", finalHeight, openDuration);
