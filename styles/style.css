@@ -12,6 +12,11 @@ a:visited {color:#906;}  /* visited link */
 a:hover {color:#C30;}  /* mouse over link */
 a:active {color:#09F;}  /* selected link */
 
+p {
+	font-size:16px;
+}
+
+
 div#wrapper {
     /*
     height is controlled with var finalheight in
@@ -241,4 +246,17 @@ div#more_games {
 	height: 950px;
 	padding: 20px;
 }
+/*  End Charity  */
+/*  About  */
+#aboutContent {
+	text-align:left;
+	margin:15px;
+	padding:15px;
+	height:1850px;
+}
+.aboutTitle {
+	color:#F00;
+}
+
+/*  End About  */
 
