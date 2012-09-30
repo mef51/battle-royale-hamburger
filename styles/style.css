@@ -39,12 +39,18 @@ div#bottombun {
     background-size: 100% 100%;
 }
 
+div#menu {
+    width: 100%;
+    height: 31px;
+    background-color: #C9172A;
+}
+
 div#meat {
     background-color: black;
     height: 30px;
     padding: 20px;
     text-align: center;
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 
 div#eventdetails {
@@ -100,7 +106,13 @@ div#mg_icon {
     width: 25%;
 }
 
-h2#gamesheading{
+h1 {
+    width: 100%;
+    padding: 0px;
+    margin: 10pt auto;
+}
+
+h1#gamesheading{
     width:100%;
     clear:both;
 }
@@ -117,6 +129,23 @@ h1#headerlink a {
 
 h1#headerlink a:hover{
     color: black;
+}
+
+#button {
+    font-size: 10pt;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 15px;
+    /*height: 100%;*/
+}
+
+#button:hover {
+    color: black;
+    background-color: #b3b3b3;
+    /*border-bottom: 1px dashed grey;*/
+    /*background-color: #a51928;*/
 }
 
 .left {

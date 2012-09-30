@@ -6,7 +6,7 @@ $(document).ready(function(){
     // it opens.
     var isOpen = false;
 
-    var finalHeight = 1810;
+    var finalHeight = $("#wrapper").attr("openHeight"); // YEAH EPIC
     var initialHeight = 30;
     var openDuration = 600; //ms
     setTimeout(function(){
