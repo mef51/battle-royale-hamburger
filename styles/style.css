@@ -219,3 +219,17 @@ div#more_games {
 	float: left;
 }
 /*  End Organizers  */
+
+/*  Sponsors  */
+#sponsorsContent {
+    width: 100%;
+    float: left;
+	height: 750px;
+}
+
+.sponsor {
+	float: left;
+    width: 45%;
+	margin: 10px;
+}
+/*  End Sponsors  */
