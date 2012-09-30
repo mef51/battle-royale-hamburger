@@ -201,3 +201,21 @@ div#more_games {
 }
 
 /* end Games section */
+
+/*  Organizers  */
+#organizersContent {
+	height: 750px;
+	padding: 20px;
+}
+
+.organizer {    
+	border: 1px solid black;
+    box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.6);
+	height: 100px;
+	width: 200px;
+	font-size:14px;
+	background-color:#000;
+	margin: 20px;
+	float: left;
+}
+/*  End Organizers  */
