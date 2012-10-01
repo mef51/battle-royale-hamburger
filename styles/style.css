@@ -13,7 +13,7 @@ a:hover {color:#C30;}  /* mouse over link */
 a:active {color:#09F;}  /* selected link */
 
 p {
-	font-size:16px;
+    font-size:16px;
 }
 
 
@@ -209,19 +209,19 @@ div#more_games {
 
 /*  Organizers  */
 #organizersContent {
-	height: 750px;
-	padding: 20px;
+    height: 750px;
+    padding: 20px;
 }
 
 .organizer {    
-	border: 1px solid black;
+    border: 1px solid black;
     box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.6);
-	height: 100px;
-	width: 220px;
-	font-size:14px;
-	background-color:#000;
-	margin: 20px;
-	float: left;
+    height: 100px;
+    width: 220px;
+    font-size:14px;
+    background-color:#000;
+    margin: 20px;
+    float: left;
 }
 /*  End Organizers  */
 
@@ -229,13 +229,13 @@ div#more_games {
 #sponsorsContent {
     width: 100%;
     float: left;
-	height: 750px;
+    height: 750px;
 }
 
 .sponsor {
-	float: left;
+    float: left;
     width: 45%;
-	margin: 10px;
+    margin: 10px;
 }
 /*  End Sponsors  */
 
@@ -243,19 +243,18 @@ div#more_games {
 #charityContent {
     width: 95%;
     float: left;
-	height: 950px;
-	padding: 20px;
+    height: 950px;
+    padding: 20px;
 }
 /*  End Charity  */
 /*  About  */
 #aboutContent {
-	text-align:left;
-	margin:15px;
-	padding:15px;
-	height:1850px;
+    text-align:left;
+    margin:15px;
+    padding:15px;
 }
 .aboutTitle {
-	color:#F00;
+    color:#F00;
 }
 
 /*  End About  */
