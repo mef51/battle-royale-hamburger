@@ -36,13 +36,13 @@ div#wrapper {
 }
 
 div#topbun {
-    height: 393px;
+    height: 215px;
     background: url("../imgs/logo/shavedtop.png");
     background-size: 100% 100%;
 }
 
 div#bottombun {
-    height: 418px;
+    height: 243px;
     background: url("../imgs/logo/bottom.png");
     background-size: 100% 100%;
 }
