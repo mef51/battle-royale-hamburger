@@ -55,7 +55,8 @@ $(document).ready(function(){
 });
 
 // small helper to include html files into other ones.
-// html file to include must match .html file
+// html file to include must match <the id>.html file
 function include(id){
     $("#" + id).load(id + ".html");
+    console.log("Included " + id + ".html file!");
 }
