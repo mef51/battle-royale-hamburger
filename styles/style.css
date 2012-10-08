@@ -122,6 +122,7 @@ div#mg_icon {
 /* Announcements Styling */
 div#announcements {
     padding: 10px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 div#announcement {
@@ -146,6 +147,7 @@ div#announcementDate {
 }
 
 div#announcementMsg {
+    text-align: justify;
     padding-top: 25px;
     padding-left: 0px;
     padding-right: 0px;
