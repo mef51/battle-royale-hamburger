@@ -273,6 +273,8 @@ h1#headerlink a:hover{
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3),0px 0px 0px transparent;
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3),0px 0px 0px transparent;
+    -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3),0px 0px 0px transparent;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
