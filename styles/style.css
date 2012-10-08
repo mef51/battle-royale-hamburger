@@ -2,8 +2,9 @@ body {
     margin: 0;
     padding: 0;
     /*background: url("../imgs/pixelbg.png");*/
-    background-color: #222222;
-
+    /*background-color: #222222;*/
+    background: #1D1D1D url("../imgs/bg-texture.jpg")
+    top center repeat-x;
 }
 
 /* link stuff */
@@ -70,10 +71,14 @@ div#eventdetails {
 
 div#registration {
     width: 100%;
-    height: 321px;
+    height: 328px;
 }
 
 #eventbrite {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
     width: 100%;
     height: 300px;
 }
@@ -114,6 +119,112 @@ div#mg_icon {
     width: 25%;
 }
 
+/* Announcements Styling */
+div#announcements {
+    padding: 10px;
+}
+
+div#announcement {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3),0px 0px 0px transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 12pt;
+    text-align: left;
+}
+
+div#announcementTitle {
+    font-weight: bold;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+div#announcementDate {
+    font-size: 10pt;
+    text-align: right;
+}
+
+div#announcementMsg {
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+
+#announcementsHeading{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    width:100%;
+}
+
+/* end Announcements Styling */
+
+/*Tournaments Styling*/
+
+div#tournamentList {
+
+}
+
+div#tournament {
+    overflow: auto;
+    padding: 10px 10px;
+}
+
+div#tourneyIcon {
+    float: left;
+    padding: 5px;
+    width: 120px;
+    height: 120px;
+}
+
+img#tourneyIcon {
+    width: 120px;
+    height: 120px;
+}
+
+div#tourneyDetails {
+    padding-left: 20px;
+    text-align: center;
+    float: left;
+}
+
+div#tourneyTitle {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%; /* temporary till we have descs */
+}
+
+div#tourneyDesc {
+    width: 100%;
+}
+
+/*end Tournaments Styling*/
+
+div#line {
+    margin: 0 auto;
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    background-color: #C9172A;
+}
+
+/*LAME. LAAAME.*/
+div#lineAlt {
+    margin: 0 auto;
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    background-color: #233138;
+}
+
 h1 {
     width: 100%;
     padding: 0px;
@@ -124,6 +235,8 @@ h1#gamesheading{
     width:100%;
     clear:both;
 }
+
+
 
 h1#headerlink {
     text-align: center;
@@ -154,6 +267,13 @@ h1#headerlink a:hover{
     background-color: #b3b3b3;
     /*border-bottom: 1px dashed grey;*/
     /*background-color: #a51928;*/
+}
+
+.msgPanel {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3),0px 0px 0px transparent;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .left {
