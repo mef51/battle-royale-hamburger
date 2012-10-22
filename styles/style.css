@@ -14,11 +14,11 @@ a:hover {color:#000000;}  /* mouse over link */
 a:active {color:#FF0000;}  /* selected link */
 
 p {
-    font-size:16px;
+    font-size:14px;
 }
 
 ul {
-	font-size:16px;
+    font-size:16px;
 }
 
 div#wrapper {
@@ -336,21 +336,26 @@ div#more_games {
 
 /*  Organizers  */
 #organizersContent {
-    height: 75%;
     padding: 20px;
+    overflow: auto;
 }
 
 .organizer {    
-    border: 1px solid black;
-    box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.6);
     height: 100px;
     width: 220px;
-    font-size:14px;
-    background-color:#000;
-    margin: 10px;
+    margin: 10px 25px;
     float: left;
-	padding: 10px;
+    /*padding: 10px;*/
 }
+
+.organizer:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+p#title {
+    text-transform: uppercase;
+}
+
 /*  End Organizers  */
 
 /*  Sponsors  */
@@ -380,7 +385,7 @@ div#more_games {
     text-align:left;
     margin:15px;
     padding:15px;
-	height:88%;
+    height:88%;
 }
 .aboutTitle {
     color:#F00;
