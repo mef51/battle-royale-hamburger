@@ -362,14 +362,29 @@ p#title {
 #sponsorsContent {
     width: 100%;
     float: left;
-    height: 750px;
+    height: 900px;
 }
 
 .sponsor {
-    float: left;
-    width: 45%;
-    margin: 10px;
+    width: 40%;
+    margin-left: 1%;  
+    margin-top: 4%; 
+    margin-bottom: 4%;
 }
+
+.past_sponsor {
+    float: left;
+    width: 23%;
+    margin-left: 1%;  
+    margin-top: 40px;  
+}
+
+#current_sponsors {
+    position: relative;
+    right: 25%;
+    left: 25%;
+}
+
 /*  End Sponsors  */
 
 /*  Charity  */
@@ -392,4 +407,5 @@ p#title {
 }
 
 /*  End About  */
+
 
