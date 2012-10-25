@@ -362,7 +362,7 @@ p#title {
 #sponsorsContent {
     width: 100%;
     float: left;
-    height: 900px;
+    height: 1000px;
 }
 
 .sponsor {
@@ -391,7 +391,7 @@ p#title {
 #charityContent {
     width: 95%;
     float: left;
-    height: 75%;
+    height: 450px;
     padding: 20px;
 }
 /*  End Charity  */
