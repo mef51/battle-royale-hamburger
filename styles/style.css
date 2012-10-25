@@ -260,7 +260,7 @@ h1#headerlink a:hover{
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    padding: 8px 15px;
+    padding: 8px 14px;
     /*height: 100%;*/
 }
 
@@ -362,7 +362,6 @@ p#title {
 #sponsorsContent {
     width: 100%;
     float: left;
-    height: 1000px;
 }
 
 .sponsor {
@@ -390,21 +389,33 @@ p#title {
 #charityContent {
     width: 95%;
     float: left;
-    height: 450px;
     padding: 20px;
 }
 /*  End Charity  */
+/*  FAQ  */
+#faqContent {
+    text-align:left;
+    margin:15px;
+    padding:15px;
+}
+.faqTitle {
+    color:#F00;
+}
+
+/*  End FAQ  */
+
 /*  About  */
 #aboutContent {
     text-align:left;
     margin:15px;
     padding:15px;
-    height:88%;
-}
-.aboutTitle {
-    color:#F00;
+    height: 420px;
 }
 
+.organizer {
+    width: 40%;
+    margin-left: 1%;  
+    margin-top: 4%; 
+    margin-bottom: 4%;
+}
 /*  End About  */
-
-
