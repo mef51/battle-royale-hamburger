@@ -182,11 +182,12 @@ div#tourneyIcon {
     padding: 5px;
     width: 120px;
     height: 120px;
+    margin: 30px;
 }
 
 img#tourneyIcon {
     width: 120px;
-    height: 120px;
+    height: 120px; 
 }
 
 div#tourneyDetails {
@@ -204,8 +205,9 @@ div#tourneyTitle {
     height: 100%; /* temporary till we have descs */
 }
 
-div#tourneyDesc {
-    width: 100%;
+#tourneyDesc {
+    padding-top: 50%;
+    font-size: x-large;
 }
 
 /*end Tournaments Styling*/
@@ -409,14 +411,14 @@ p#title {
     text-align:left;
     margin:15px;
     padding:15px;
-    height: 420px;
 }
 
 .organizing_university {
-    float: left;
     width: 40%;
     margin-left: 1%;  
     margin-top: 4%; 
     margin-bottom: 4%;
+    position: relative;
+    left: 25%;
 }
 /*  End About  */
