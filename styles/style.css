@@ -56,7 +56,7 @@ div#menu {
 
 div#meat {
     background-color: black;
-    height: 30px;
+    min-height: 30px;
     padding: 20px;
     text-align: center;
     margin: 5px 0px;
