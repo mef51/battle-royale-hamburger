@@ -384,7 +384,6 @@ p#title {
     float: right;
     width: 33%;
     margin-top: 40px;   
-
 }
 
 .gold_sponsor {
@@ -397,11 +396,8 @@ p#title {
 .past_sponsor {
     float: left;
     width: 23%;
-    margin-left: 1%;  
-    margin-top: 40px;  
+    margin: 20px 40px 10px 40px;  
 }
-
-
 
 /*  End Sponsors  */
 
