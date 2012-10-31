@@ -381,8 +381,9 @@ p#title {
 }
 
 .sponsor {
-    float: right;
+    float: left;
     width: 33%;
+    height: 150px;
     margin-top: 40px;   
 }
 
