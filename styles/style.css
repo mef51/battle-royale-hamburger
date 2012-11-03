@@ -375,6 +375,11 @@ p#title {
     left: 25%;
 }
 
+img#sched {
+    display: block;
+    margin: 0 auto;
+}
+
 #past_sponsors {
     clear: both;
 }
